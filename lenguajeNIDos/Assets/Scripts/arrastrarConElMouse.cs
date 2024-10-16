@@ -23,6 +23,7 @@ public class arrastrarConElMouse : MonoBehaviour
     {
         // Calcula la distancia entre la posición original del objeto y el lugar donde hacemos click
         distancia = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position;
+        
     }
 
     // Cuando se arrastra el click (?
